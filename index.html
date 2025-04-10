@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>synkr</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <meta name="description" content="Synkr is a leading digital agency specializing in web development, social media marketing, and video production.">
+  <!-- Development only -->
+  <script src="http://localhost:35729/livereload.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo">Synkr</a>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="consultation.html" class="cta-button">Get a free consultation</a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="consultation.html" class="mobile-cta">Get a free consultation</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Empowering Brands in the Digital Age</h1>
+      <p>Web Development • Social Media Marketing • Management • Video Editing</p>
+      <a href="#contact" class="hero-btn">Start a Project</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>Custom websites built with modern technologies and best practices.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-hashtag"></i>
+        </div>
+        <h3>Social Media Marketing</h3>
+        <p>Strategic campaigns to grow your online presence and engagement.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>Social Media Management</h3>
+        <p>Professional management of your social media accounts and content.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-film"></i>
+        </div>
+        <h3>Video Editing</h3>
+        <p>High-quality video production and editing for your brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <h2>Our Portfolio</h2>
+    <div id="portfolioGrid" class="portfolio-grid">
+        <!-- Portfolio items will be dynamically added here -->
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <div class="testimonials-container">
+        <div class="testimonials-header">
+            <h2>What Our Clients Say</h2>
+            <p>Don't just take our word for it. Here's what our clients have to say about working with us.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "Synkr transformed our online presence completely. Their team's expertise in web development and social media marketing helped us achieve remarkable growth."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Client">
+                    </div>
+                    <div class="author-info">
+                        <h4>Sarah Johnson</h4>
+                        <p>CEO, TechStart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "The video production team at Synkr exceeded our expectations. Their creative approach and attention to detail made our brand stand out."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Client">
+                    </div>
+                    <div class="author-info">
+                        <h4>Michael Chen</h4>
+                        <p>Marketing Director, InnovateCo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "Working with Synkr has been a game-changer for our social media strategy. Their team's insights and execution have driven significant engagement."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Client">
+                    </div>
+                    <div class="author-info">
+                        <h4>Emily Rodriguez</h4>
+                        <p>Founder, StyleHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about">
+    <div class="about-container">
+        <div class="about-content">
+            <h2>About Synkr</h2>
+            <p>Synkr is a leading digital agency specializing in web development, social media marketing, and video production. With a team of passionate professionals, we help businesses establish a strong online presence and achieve their digital goals.</p>
+            <p>Our mission is to deliver innovative solutions that drive growth and create lasting impact for our clients. We combine creativity with technical expertise to deliver exceptional results.</p>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Synkr Team">
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Ready to start your project? We'd love to hear from you. Contact us today to discuss how we can help bring your vision to life.</p>
+            <div class="contact-details">
+                <div class="contact-detail">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>synkrdev@gmail.com</p>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-phone"></i>
+                    <h4>Phone</h4>
+                    <p>+92 332 6353400</p>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Location</h4>
+                    <p>Multan, Pakistan</p>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-clock"></i>
+                    <h4>Hours</h4>
+                    <p>Mon-Fri: 6pm-3am</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Synkr. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://instagram.com/synkr.dev" target="_blank">Instagram</a> • <a href="https://linkedin.com/company/synkr" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-image">
+        <img src="" alt="Project Preview" id="modalImage">
+      </div>
+      <div class="modal-info">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div class="modal-tech" id="modalTech"></div>
+        <div class="modal-features">
+          <h3>Key Features</h3>
+          <ul id="modalFeatures"></ul>
+        </div>
+        <a href="#" class="modal-link" id="modalLink" target="_blank">Visit Project</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

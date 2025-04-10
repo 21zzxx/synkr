@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Management System - Synkr</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .project-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 8rem 2rem;
+            text-align: center;
+        }
+
+        .project-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .project-section {
+            margin-bottom: 4rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .tech-tag {
+            background-color: var(--light-blue);
+            color: var(--brand-blue);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .feature-card {
+            background-color: var(--light-blue);
+            padding: 2rem;
+            border-radius: 16px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card i {
+            font-size: 2.5rem;
+            color: var(--brand-blue);
+            margin-bottom: 1rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 2rem;
+            color: var(--brand-blue);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.8rem 1.5rem;
+            border: 2px solid var(--brand-blue);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: var(--brand-blue);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .project-header {
+                padding: 6rem 1rem;
+            }
+
+            .project-content {
+                padding: 2rem 1rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../index.html" class="logo">synkr</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="../index.html#portfolio">Portfolio</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <a href="../consultation.html" class="cta">Get a Free Consultation</a>
+        </div>
+    </nav>
+
+    <header class="project-header">
+        <h1>Social Media Management System</h1>
+        <p>A comprehensive platform for managing social media presence and analytics</p>
+    </header>
+
+    <main class="project-content">
+        <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Social Media Management System">
+        </div>
+
+        <section class="project-section">
+            <h2>Project Overview</h2>
+            <p>A powerful social media management platform that enables businesses to schedule posts, track performance, and collaborate with team members across multiple social media channels. The system provides comprehensive analytics and insights to optimize social media strategies.</p>
+        </section>
+
+        <section class="project-section">
+            <h2>Technologies Used</h2>
+            <div class="tech-stack">
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Social Media APIs</span>
+                <span class="tech-tag">Analytics</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Content Scheduling</h3>
+                    <p>Plan and schedule posts across multiple platforms with a unified calendar</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Performance Tracking</h3>
+                    <p>Monitor engagement metrics and track campaign performance</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Team Collaboration</h3>
+                    <p>Work together with team members and manage content approval workflows</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Comprehensive analytics and reporting tools for data-driven decisions</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h2>Project Impact</h2>
+            <p>The platform has helped businesses increase their social media engagement by 45% and reduce content creation time by 30%. The analytics dashboard has provided valuable insights that have led to more effective social media strategies and better ROI.</p>
+        </section>
+
+        <a href="../index.html#portfolio" class="back-button">← Back to Portfolio</a>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Synkr. All rights reserved.</p>
+        <div class="socials">
+            <a href="#">Instagram</a> • <a href="#">LinkedIn</a> • <a href="#">X</a>
+        </div>
+    </footer>
+</body>
+</html> 
